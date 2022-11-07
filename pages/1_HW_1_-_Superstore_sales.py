@@ -260,11 +260,7 @@ st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
 st.table(ae)
 
-def congrats():
-    st.balloons()
 
 st.markdown("""
     William Brown is the customer with the most orders!
 """
-)
-st.button("Click to congratulate!", on_click=congrats())
